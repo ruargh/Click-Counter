@@ -27,6 +27,8 @@ class ViewController: UIViewController {
         let button = UIButton()
         button.frame = CGRect(x: 150, y: 250, width: 60, height: 60)
         button.setTitle("Click", for: .normal)
+        
+        button.setTitleColor(UIColor.blue, for: .normal)
         view.addSubview(button)
         
         button.addTarget(self, action: #selector(ViewController.incrementCount), for: UIControl.Event.touchUpInside)
