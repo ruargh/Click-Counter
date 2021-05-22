@@ -12,18 +12,7 @@
 		75885F0C26594BFB0023F21F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75885F0A26594BFB0023F21F /* Main.storyboard */; };
 		75885F0E26594BFD0023F21F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75885F0D26594BFD0023F21F /* Assets.xcassets */; };
 		75885F1126594BFD0023F21F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75885F0F26594BFD0023F21F /* LaunchScreen.storyboard */; };
-		75885F1C26594BFD0023F21F /* Click_CounterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75885F1B26594BFD0023F21F /* Click_CounterTests.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		75885F1826594BFD0023F21F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 75885EFB26594BFB0023F21F /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 75885F0226594BFB0023F21F;
-			remoteInfo = "Click Counter";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		75885F0326594BFB0023F21F /* Click Counter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Click Counter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -33,20 +22,12 @@
 		75885F0D26594BFD0023F21F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		75885F1026594BFD0023F21F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		75885F1226594BFD0023F21F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		75885F1726594BFD0023F21F /* Click CounterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Click CounterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		75885F1B26594BFD0023F21F /* Click_CounterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Click_CounterTests.swift; sourceTree = "<group>"; };
 		75885F1D26594BFD0023F21F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		75885F0026594BFB0023F21F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		75885F1426594BFD0023F21F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -69,7 +50,6 @@
 			isa = PBXGroup;
 			children = (
 				75885F0326594BFB0023F21F /* Click Counter.app */,
-				75885F1726594BFD0023F21F /* Click CounterTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -116,24 +96,6 @@
 			productReference = 75885F0326594BFB0023F21F /* Click Counter.app */;
 			productType = "com.apple.product-type.application";
 		};
-		75885F1626594BFD0023F21F /* Click CounterTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 75885F2326594BFD0023F21F /* Build configuration list for PBXNativeTarget "Click CounterTests" */;
-			buildPhases = (
-				75885F1326594BFD0023F21F /* Sources */,
-				75885F1426594BFD0023F21F /* Frameworks */,
-				75885F1526594BFD0023F21F /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				75885F1926594BFD0023F21F /* PBXTargetDependency */,
-			);
-			name = "Click CounterTests";
-			productName = "Click CounterTests";
-			productReference = 75885F1726594BFD0023F21F /* Click CounterTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -146,10 +108,6 @@
 				TargetAttributes = {
 					75885F0226594BFB0023F21F = {
 						CreatedOnToolsVersion = 10.3;
-					};
-					75885F1626594BFD0023F21F = {
-						CreatedOnToolsVersion = 10.3;
-						TestTargetID = 75885F0226594BFB0023F21F;
 					};
 				};
 			};
@@ -167,7 +125,6 @@
 			projectRoot = "";
 			targets = (
 				75885F0226594BFB0023F21F /* Click Counter */,
-				75885F1626594BFD0023F21F /* Click CounterTests */,
 			);
 		};
 /* End PBXProject section */
@@ -183,13 +140,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		75885F1526594BFD0023F21F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -202,23 +152,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		75885F1326594BFD0023F21F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				75885F1C26594BFD0023F21F /* Click_CounterTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		75885F1926594BFD0023F21F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 75885F0226594BFB0023F21F /* Click Counter */;
-			targetProxy = 75885F1826594BFD0023F21F /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		75885F0A26594BFB0023F21F /* Main.storyboard */ = {
@@ -396,48 +330,6 @@
 			};
 			name = Release;
 		};
-		75885F2426594BFD0023F21F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = Z62K6ZBW5U;
-				INFOPLIST_FILE = "Click CounterTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Ruargh.Udacity.Click-CounterTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Click Counter.app/Click Counter";
-			};
-			name = Debug;
-		};
-		75885F2526594BFD0023F21F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = Z62K6ZBW5U;
-				INFOPLIST_FILE = "Click CounterTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Ruargh.Udacity.Click-CounterTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Click Counter.app/Click Counter";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -455,15 +347,6 @@
 			buildConfigurations = (
 				75885F2126594BFD0023F21F /* Debug */,
 				75885F2226594BFD0023F21F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		75885F2326594BFD0023F21F /* Build configuration list for PBXNativeTarget "Click CounterTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				75885F2426594BFD0023F21F /* Debug */,
-				75885F2526594BFD0023F21F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
